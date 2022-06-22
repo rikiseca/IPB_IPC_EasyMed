@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".WelcomeScreen">
+
+	<ImageView
+		android:id="@+id/firstScreenIcon"
+		android:layout_width="207dp"
+		android:layout_height="225dp"
+		android:layout_marginStart="12dp"
+		android:layout_marginTop="64dp"
+		android:layout_marginEnd="12dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@drawable/imagem_inicial"
+		tools:ignore="ImageContrastCheck" />
+
+	<Button
+		android:id="@+id/buttonNext"
+		android:layout_width="130dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="16dp"
+		android:layout_marginBottom="8dp"
+		android:backgroundTint="#4CAF50"
+		android:text="@string/nextButtonText"
+		android:onClick="onContinueClick"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent" />
+
+	<Button
+		android:id="@+id/helpButton"
+		android:layout_width="130dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="16dp"
+		android:layout_marginBottom="8dp"
+		android:backgroundTint="#FF9800"
+		android:text="@string/helpButton"
+		android:onClick="onHelpClick"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintStart_toStartOf="parent" />
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="32dp"
+		android:text="@string/app_name"
+		android:textSize="30sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/firstScreenIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>
