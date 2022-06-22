@@ -14,7 +14,8 @@ public class settingsScreen extends AppCompatActivity {
 	/*
 	Settings screen for EasyMed
 	TODO:
-		- Set lock(4digit pin)
+		- Set length of code
+		- Snooze without password (option)
 		- Set music path
 	 */
 
