@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">EasyMed</string>
+	<string name="helpButton">Ajuda</string>
+	<string name="nextButtonText">Continuar</string>
+	<string name="help_hello">Bem Vinde à EasyMed</string>
+	<string name="help_full_text">A EasyMed é uma aplicação com o objectivo lembrar os utilizadores dos medicamentos que estão a tomar, com bastante ênfase na
+simplicidade e acessibilidade.<br />Esta aplicação não é um produto final, só uma aplicação desenvolvida para a cadeira de Interação Pessoa Computador</string>
+	<string name="pill_name_var_text">Nome do Comprimido</string>
+	<string name="begin_date_text">Data de Início</string>
+	<string name="end_date_text">Data de Fim</string>
+	<string name="first_fragment_label">First Fragment</string>
+	<string name="second_fragment_label">Second Fragment</string>
+	<string name="number_per_day_pills">Número de tomas Diarias</string>
+	<string name="number_per_day_hour">Hora de toma inicial</string>
+	<string name="accept_button_text">Aplicar</string>
+	<string name="cancel_button_text">Anular</string>
+
+	<string-array name="planets_array">
+		<item>1 Vez por dia</item>
+		<item>2 Vezes por dia</item>
+		<item>3 Vezes por dia</item>
+		<item>4 Vezes por dia</item>
+	</string-array>
+
+</resources>
