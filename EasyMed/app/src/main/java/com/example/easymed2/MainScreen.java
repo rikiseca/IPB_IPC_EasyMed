@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
@@ -19,6 +20,8 @@ public class MainScreen extends AppCompatActivity {
 
 
 	ListView list;  // TODO: if enough time switch from ListView to RecyclerView
+
+	ArrayList<pill> pills = new ArrayList<>();
 
 	String[] maintitle = {"Viagra", "Memofante"};
 	String[] subtitle = {"Pressão sanguinea", "Memoria"};

@@ -37,10 +37,13 @@ public class addRemindersScreen extends AppCompatActivity {
 		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		// Apply the adapter to the spinner
 		spinner_days_per.setAdapter(adapter);
+		//TODO: get number of times per day from spinner and divide it by 24
+		// add_scheduler(adapter.split())
+
+		// TODO: get stuff from inputs and add it to the pills ArrayList
 
 		Intent intent = getIntent();
 
-		//TODO: get number of times per day from spinner and divide it by 24
 	}
 
 	public void onCancelClick(View view) {

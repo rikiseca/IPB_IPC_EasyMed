@@ -13,6 +13,8 @@ import androidx.annotation.NonNull;
 
 public class MyListView  extends ArrayAdapter <String> {
     private final Activity context;
+
+    // change this to pill.maintitle , pill.subtitle, imgid
     private final String[] maintitle;
     private final String[] subtitle;
     private final Integer[] imgid;
