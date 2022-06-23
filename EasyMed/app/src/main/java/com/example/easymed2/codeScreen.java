@@ -24,6 +24,6 @@ public class codeScreen extends AppCompatActivity {
 		} else {
 			codeLenght += 1;
 		}
+		setContentView(R.layout.activity_settings_screen);
 	}
-
 }

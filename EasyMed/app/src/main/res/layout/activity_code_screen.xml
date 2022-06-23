@@ -11,8 +11,12 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="250dp"
+<<<<<<< Updated upstream
 		android:text="1"
 		android:clickable="true"
+=======
+		android:text="@string/_1"
+>>>>>>> Stashed changes
 		android:onClick="onNumberClick"
 		app:layout_constraintBottom_toTopOf="@+id/button_4"
 		app:layout_constraintEnd_toStartOf="@+id/button_2"
@@ -24,8 +28,12 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="250dp"
+<<<<<<< Updated upstream
 		android:text="2"
 		android:clickable="true"
+=======
+		android:text="@string/_2"
+>>>>>>> Stashed changes
 		android:onClick="onNumberClick"
 		app:layout_constraintBottom_toTopOf="@+id/button_4"
 		app:layout_constraintEnd_toStartOf="@+id/button_3"
@@ -37,8 +45,12 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="250dp"
+<<<<<<< Updated upstream
 		android:text="3"
 		android:clickable="true"
+=======
+		android:text="@string/_3"
+>>>>>>> Stashed changes
 		android:onClick="onNumberClick"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toEndOf="@+id/button_2"
@@ -48,8 +60,12 @@
 		android:id="@+id/button_4"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 		android:text="4"
 		android:clickable="true"
+=======
+		android:text="@string/_4"
+>>>>>>> Stashed changes
 		android:onClick="onNumberClick"
 		app:layout_constraintBottom_toTopOf="@+id/button_7"
 		app:layout_constraintEnd_toStartOf="@+id/button_5"
@@ -60,8 +76,12 @@
 		android:id="@+id/button_5"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 		android:text="5"
 		android:clickable="true"
+=======
+		android:text="@string/_5"
+>>>>>>> Stashed changes
 		android:onClick="onNumberClick"
 		app:layout_constraintBottom_toTopOf="@+id/button_8"
 		app:layout_constraintEnd_toStartOf="@+id/button_6"
@@ -72,8 +92,12 @@
 		android:id="@+id/button_6"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 		android:text="6"
 		android:clickable="true"
+=======
+		android:text="@string/_6"
+>>>>>>> Stashed changes
 		android:onClick="onNumberClick"
 		app:layout_constraintBottom_toTopOf="@+id/button_9"
 		app:layout_constraintEnd_toEndOf="parent"
@@ -84,8 +108,12 @@
 		android:id="@+id/button_7"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 		android:text="7"
 		android:clickable="true"
+=======
+		android:text="@string/_7"
+>>>>>>> Stashed changes
 		android:onClick="onNumberClick"
 		app:layout_constraintEnd_toStartOf="@+id/button_8"
 		app:layout_constraintStart_toStartOf="parent"
@@ -95,8 +123,12 @@
 		android:id="@+id/button_8"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 		android:text="8"
 		android:clickable="true"
+=======
+		android:text="@string/_8"
+>>>>>>> Stashed changes
 		android:onClick="onNumberClick"
 		app:layout_constraintBottom_toTopOf="@+id/button_10"
 		app:layout_constraintEnd_toStartOf="@+id/button_9"
@@ -107,8 +139,12 @@
 		android:id="@+id/button_9"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 		android:text="9"
 		android:clickable="true"
+=======
+		android:text="@string/_9"
+>>>>>>> Stashed changes
 		android:onClick="onNumberClick"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toEndOf="@+id/button_8"
@@ -118,8 +154,12 @@
 		android:id="@+id/button_10"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 		android:text="0"
 		android:clickable="true"
+=======
+		android:text="@string/_0"
+>>>>>>> Stashed changes
 		android:onClick="onNumberClick"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
